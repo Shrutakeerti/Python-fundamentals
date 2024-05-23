@@ -1,0 +1,14 @@
+Try creating a small program that calculates the factorial of a number provided by the
+user. This will help reinforce your understanding of loops and conditional statements.
+
+def factorial(n):
+ if n == 0:
+ return 1
+ else:
+ return n * factorial(n-1)
+# Taking user input
+num = int(input('Enter a number: '))
+print(f'The factorial of {num} is {factorial(num)}')
+
+Enter a number: 5
+The factorial of 5 is 120
