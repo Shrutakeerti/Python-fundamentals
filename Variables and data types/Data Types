@@ -1,0 +1,9 @@
+Python supports several data types including integers, floats, strings, and booleans.
+
+
+
+In [37]: # Data Types examples
+         x = 10
+         y = 20.5
+         name = 'Ashish'
+         is_active = True
