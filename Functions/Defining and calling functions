@@ -1,0 +1,7 @@
+# Defining a function
+def greet(name):
+ return f'Hello, {name}!'
+# Calling a function
+print(greet('Ashish')) # Output: Hello, Ashish!
+
+Hello, Ashish!
