@@ -1,0 +1,10 @@
+
+You can convert between different data types using functions like int() , float() ,
+str() , etc.
+
+
+In [38]: # Converting between types
+         int_to_float = float(10) # Output: 10.0
+         float_to_int = int(20.5) # Output: 20
+         int_to_str = str(10) # Output: '10'
+         str_to_int = int('10') # Output: 10
