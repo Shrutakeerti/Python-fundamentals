@@ -1,0 +1,14 @@
+
+Here's a quick data science exercise. Calculate the mean of a list of numbers provided
+by the user.
+
+
+def calculate_mean(numbers):
+ return sum(numbers) / len(numbers)
+# Taking user input
+user_input = input('Enter numbers separated by spaces: ')
+numbers = list(map(int, user_input.split()))
+print(f'The mean of the numbers is {calculate_mean(numbers)}')
+
+Enter numbers separated by spaces: 1 2 3
+The mean of the numbers is 2.0
