@@ -1,0 +1,8 @@
+Python's standard library and third-party packages extend its capabilities. Using libraries
+and packages allows you to leverage pre-written code for various tasks.
+
+import math
+# Using math library
+print(math.sqrt(16)) # Output: 4.0
+
+4.0
