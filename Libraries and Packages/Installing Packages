@@ -1,0 +1,5 @@
+# Using pip to install a package
+!pip install numpy
+
+Requirement already satisfied: numpy in /Users/ashishzangra/opt/an
+aconda3/lib/python3.9/site-packages (1.21.5)
