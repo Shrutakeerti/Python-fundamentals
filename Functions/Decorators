@@ -1,0 +1,16 @@
+# Defining a simple decorator
+def debug(func):
+ def wrapper(*args, **kwargs):
+ print(f'Calling {func.__name__} with {args} and {kwargs}')
+ result = func(*args, **kwargs)
+ print(f'{func.__name__} returned {result}')
+ return result
+ return wrapper
+@debug
+def multiply(a, b):
+ return a * b
+print(multiply(3, 4)) # Output: Calling multiply with (3, 4) and {
+
+Calling multiply with (3, 4) and {}
+multiply returned 12
+12
