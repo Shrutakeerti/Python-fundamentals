@@ -1,0 +1,10 @@
+is_mentor = True
+is_student = False
+print(is_mentor and is_student) # Logical AND: False
+print(is_mentor or is_student) # Logical OR: True
+print(not is_mentor) # Logical NOT: False
+
+
+False
+True
+False
