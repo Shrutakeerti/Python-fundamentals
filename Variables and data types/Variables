@@ -1,0 +1,9 @@
+Variables
+Variables are containers for storing data values. In Python, variables are created when
+you assign a value to them.
+
+In [36]:# Creating variables
+x = 10 # Integer
+y = 20.5 # Float
+name = 'Ashish' # String
+is_active = True # Boolean
