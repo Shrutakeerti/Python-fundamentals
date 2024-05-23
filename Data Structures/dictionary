@@ -1,0 +1,10 @@
+# Creating a dictionary
+person = {'name': 'Ashish', 'age': 25, 'city': 'Delhi'}
+# Accessing values
+print(person['name']) # Output: Ashish
+# Adding key-value pairs
+person['email'] = 'ashish@example.com'
+# Removing key-value pairs
+del person['age']
+
+Ashish
