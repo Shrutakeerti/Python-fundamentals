@@ -1,0 +1,5 @@
+Python provides built-in functions to read from and write to files. This is essential for data
+persistence and manipulation.
+
+with open('file.txt', 'w') as file:
+ file.write('Hello, world!')
