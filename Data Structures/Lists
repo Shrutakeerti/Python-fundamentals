@@ -1,0 +1,14 @@
+Python provides various data structures to store collections of data.
+
+# Creating a list
+fruits = ['apple', 'banana', 'cherry']
+# Accessing elements
+print(fruits[0]) # Output: apple
+# Adding elements
+fruits.append('orange')
+# Removing elements
+fruits.remove('banana')
+# List comprehension
+squares = [x**2 for x in range(10)]
+
+apple
