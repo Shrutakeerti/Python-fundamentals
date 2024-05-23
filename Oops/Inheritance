@@ -1,0 +1,19 @@
+# Inheritance in Python
+class Animal:
+ def __init__(self, name):
+ self.name = name
+ def make_sound(self):
+ return 'Some sound'
+class Dog(Animal):
+ def bark(self):
+ return 'Woof!'
+# Creating an object of the derived class
+my_dog = Dog('Buddy')
+print(my_dog.name) # Output: Buddy
+print(my_dog.make_sound()) # Output: Some sound
+print(my_dog.bark()) # Output: Woof!
+
+
+Buddy
+Some sound
+Woof!
