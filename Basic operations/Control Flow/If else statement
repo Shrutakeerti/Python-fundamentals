@@ -1,0 +1,7 @@
+Control flow statements in Python allow you to execute code based on conditions
+
+age = 18
+if age >= 18:
+ print('You are an adult.')
+else:
+ print('You are a minor.')
