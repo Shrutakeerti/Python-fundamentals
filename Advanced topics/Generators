@@ -1,0 +1,14 @@
+# Generator function
+def generate_numbers(n):
+ for i in range(n):
+ yield i
+# Using the generator
+gen = generate_numbers(5)
+for num in gen:
+ print(num) # Output: 0 1 2 3 4
+
+0
+1
+2
+3
+4
