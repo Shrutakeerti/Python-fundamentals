@@ -1,0 +1,9 @@
+class CustomError(Exception):
+ pass
+try:
+ raise CustomError('This is a custom error')
+except CustomError as e:
+ print(e) # Output: This is a custom error
+
+
+This is a custom error
