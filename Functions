@@ -1,0 +1,3 @@
+Functions in Python are defined using the def keyword. They allow you to encapsulate
+code for reuse and better organization.
+
